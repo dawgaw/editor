@@ -1,0 +1,9 @@
+#tracker {
+	z-index: 2;
+	width: 3px;
+	background-color: purple;
+	left: 1px;
+	height: 100%;
+	position: absolute;
+	cursor: col-resize;
+}

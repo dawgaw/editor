@@ -1,0 +1,39 @@
+#editZone_container {
+	border: solid gray 1px;
+	margin-bottom: 30px;
+	display: grid;
+	overflow-x: scroll;
+	overflow-y: auto;
+	margin: 0;
+}
+
+#mediotr {
+	display: inline-block;
+	position: relative;
+}
+
+
+
+#editZone {
+	display: grid;
+	grid-template-rows: 70% 30%;
+
+}
+
+#editZone_buttons button {
+	padding: 1em;
+	font-size: large;
+	border-radius: 0.5rem;
+	margin: 0.5rem;
+	background-color: black;
+	border: 1px solid white;
+	color: white;
+}
+
+#editZone_buttons button:hover {
+	background-color: rgb(58, 58, 58);
+}
+
+#editZone_buttons button:active {
+	background-color: rgb(88, 88, 88);
+}

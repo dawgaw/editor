@@ -1,0 +1,29 @@
+#appBar {
+	position: static;
+	background-color: #1e1e1e;
+	display: flex;
+}
+
+#appBar_title {
+	margin: 0.5em;
+}
+
+#main {
+	height: 100%;
+	display: grid;
+	grid-template-rows: auto 1fr 1fr;
+	align-items: stretch;
+}
+
+#containerForvideoAndFiles {
+	display: grid;
+	grid-template-columns: 3fr 2fr;
+	border: solid gray 1px;
+}
+
+#videoPlayer {
+	width: 100%;
+	max-height: 20rem;
+}
+
+#editZone {}

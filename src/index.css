@@ -1,0 +1,18 @@
+body,
+html,
+#root {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	background-color: black;
+}
+
+* {
+	box-sizing: border-box;
+	color: white;
+	user-select: none;
+}
+
+.selected {
+	border: 1px solid yellow;
+}

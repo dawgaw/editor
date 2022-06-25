@@ -1,0 +1,22 @@
+.item {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: solid gray 1px;
+	border-radius: 0.5rem;
+	padding: 0.5em;
+	background-color: #101010;
+	cursor: pointer;
+	height: 7em;
+	text-overflow: clip;
+	overflow: hidden;
+	color: white;
+}
+
+.item_name {
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.item:hover {
+	background-color: #1f1f1f;
+}
